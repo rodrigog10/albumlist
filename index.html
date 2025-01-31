@@ -5,174 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>albumlist</title>
-    <style>
-        body {
-            background-color: rgb(255, 204, 141);
-        }
-
-        .contas {
-            color: rgb(255, 0, 0);
-            text-align: center;
-        }
-
-        h1 {
-            font: normal 35pt georgia;
-            text-align: center;
-            padding: 0px;
-        }
-
-        h2 {
-            text-align: center;
-            font: normal 25pt georgia;
-            padding: 10px;
-        }
-
-        p {
-            font: normal 15pt georgia;
-            text-align: center;
-            padding: 10px;
-        }
-
-        .embaixodoprimeiro {
-            padding: 60px;
-            font: normal 12pt georgia;
-            text-align: center;
-            width: 50rem;
-            margin: 0 auto;
-        }
-
-        .explicacao {
-            font: normal 13pt georgia;
-            padding: 70px;
-            width: 40rem;
-            /* Largura máxima da caixa de resultados */
-            height: 20vh;
-            /* Altura máxima da caixa de resultados */
-            text-align: center;
-            /* Centraliza o texto */
-            margin: 0 auto;
-            /* Centraliza a div na página */
-        }
-
-        .destaque {
-            display: flex;
-            justify-content: center;
-            /* Centraliza as imagens horizontalmente */
-            margin: 0 auto;
-            /* Centraliza a div das imagens */
-        }
-
-        .destaque img {
-            width: 350px;
-        }
-
-        .albuns {
-            display: flex;
-            justify-content: center;
-            /* Centraliza as imagens horizontalmente */
-            margin: 0 auto;
-            /* Centraliza a div das imagens */
-        }
-
-        .albuns img {
-            width: 250px;
-        }
-
-        .albunstyler {
-            display: flex;
-            justify-content: center;
-            /* Centraliza as imagens horizontalmente */
-            margin: 0 auto;
-            /* Centraliza a div das imagens */
-        }
-
-        .albunstyler img {
-            width: 200px;
-        }
-
-        .link-tyler {
-            margin-top: -110px;
-        }
-
-        .socialmedia {
-            text-align: center;
-            margin-top: -20px;
-            margin-bottom: 120px;
-        }
-
-        .socialmedia a {
-            color: rgb(255, 0, 0);
-            font: normal 13pt georgia;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .twin-fantasy {
-            display: flex;
-            justify-content: center;
-            margin: 0 auto;
-
-        }
-
-        .twin-fantasy img {
-            width: 350px;
-        }
-
-        .lamp-text {
-            text-align: center;
-            font: normal 15pt georgia;
-            margin-top: -55px;
-        }
-
-        .lamp-space {
-            text-align: center;
-        }
-
-        .lamp-space a {
-            color: rgb(255, 0, 0);
-            font: normal 15pt georgia;
-            font-weight: bold;
-            display: block;
-            /* Faz com que os links ocupem uma linha inteira */
-            margin-bottom: -20px;
-            /* Ajuste a margem inferior entre os links */
-        }
-
-        .link {
-
-            margin-top: -20px;
-            font: normal 17px georgia;
-        }
-
-        .asf {
-            text-align: left;
-        }
-
-        .gif {
-            width: 300px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
-    <h1><strong>✿ my simple albumlist ✿ </strong></h1>
+
+    <div class="container">
+        <h1 class="title"><strong>✿ my simple albumlist ✿ </strong></h1>
+    </div>
+
     <p class="primeiroparagrafo"> <strong>Hello! my name is Rodrigo, im brazilian, im currently 16 years old and i am in
             the process
             to be a
             good dev! :D </strong></p>
+
     <p class="embaixodoprimeiro"> <strong> > I started these simple project to practice my habilities that i learned
             recently and talk about my musical taste and my opinions on my favorite albums. here there the albuns by
             some bands and artirts that i really aprecciate much! </strong> </p>
-    <p class="contas"><strong>my social media accounts:</strong></p>
-    <div class="socialmedia">
-        <a href="https://www.instagram.com/rodrwz_/" target="_blank"> instagram 📷<br></a>
-        <a href="https://github.com/rodrigog10" target="_blank"> github 💻 <br></a>
-        <a href="https://open.spotify.com/user/ysnz2gx7orbj2lkw9j19sd8kr?si=a79c2f1713224252" target="_blank"> spotify
-            🎧<br></a>
-        <a href="https://www.last.fm/user/rodrigogoggog" target="_blank"> last.fm 📔 <br></a>
-
+    <div class="caixinha">
+        <p class="contas"><strong>my social media accounts:</strong></p>
+        <div class="socialmedia">
+            <a href="https://github.com/rodrigog10" target="_blank"> github 💻 <br></a>
+            <a href="https://www.instagram.com/rodrwz_/" target="_blank"> instagram 📷<br></a>
+            <a href="https://open.spotify.com/user/ysnz2gx7orbj2lkw9j19sd8kr?si=a79c2f1713224252" target="_blank">
+                spotify🎧<br></a>
+            <a href="https://www.last.fm/user/rodrigogoggog" target="_blank"> last.fm 📔 <br></a>
+        </div>
     </div>
-    <h2> <strong> 1. Los hermanos - all albuns </strong> </h2>
+    <div class="container">
+        <h2> <strong> 1. Los hermanos - all albuns </strong> </h2>
+    </div>
+
 
     <div class="albuns">
         <img src="https://upload.wikimedia.org/wikipedia/pt/e/e7/Los_Hermanos_1999_Los_Hermanos.jpg" alt="">
@@ -188,9 +52,11 @@
             make me happy, sad or calm down in such an intense way, so, because this i am in love with los hermanos
             forever. they have
             thousands songs and i like most of them! </strong> </p>
+    <div class="container">
+        <h2> <strong> My favorite album within these 4 albuns: "4"</strong></h2>
 
-    <h2> <strong> My favorite album within these 4 albuns: </strong></h2>
-    <h2><strong>"4"</strong></h2>
+    </div>
+
     <div class="destaque">
         <img src="https://i.scdn.co/image/ab67616d0000b273465825847b3080a533856c81" alt="">
     </div>
@@ -205,15 +71,17 @@
                 target="_blank"> click here!</strong></a>.</p>
     <p class="link"> <strong>and if you wanna know more of this artist, <a
                 href="https://en.wikipedia.org/wiki/Los_Hermanos" target="_blank"> click here!</a> </strong></p>
+    <div class="container">
+        <h2> <strong> 2. Car Seat Headrest - Twin Fantasy </strong> </h2>
+    </div>
 
-    <h2> <strong> 2. Car Seat Headrest - Twin Fantasy </strong> </h2>
     <div class="twin-fantasy">
         <img src="https://monkeybuzz.com.br/wp-content/uploads/2018/02/a0202599159_10-5a8c377aa1a7a.jpg" alt="">
     </div>
     <p> <strong>Favorites songs: "Beach Live-In-Death", "Twin Fantasy (Those Boys)"</strong></p>
     <p class="explicacao"> <strong> - my first experience listening to this album was not good, i had high expectations
             and was disappointed after listening to it. BUT, after a long time i gave it another chance, i tried to get
-            away from him, but he was always looking for me XD.I like this album because the way the songs are
+            away from him, but he was always looking for me XD. I like this album because the way the songs are
             constructed are sometimes very diverse, I really like the instrumental too, especially "Beach Live-In-Death"
             and "Famous Prophets (Stars)". </strong></p>
     <p class="link"> <strong>if you wanna hear this album, <a
@@ -221,8 +89,10 @@
                 target="_blank"> click here!</a> </strong></p>
     <p class="link"> <strong>and if you wanna know more of this artist, <a
                 href="https://en.wikipedia.org/wiki/Car_Seat_Headrest" target="_blank"> click here!</a> </strong></p>
+    <div class="container">
+        <h2> <strong> 3. Tyler, the Creator - all albuns </strong> </h2>
+    </div>
 
-    <h2> <strong> 3. Tyler, the Creator - all albuns </strong> </h2>
 
     <div class="albunstyler">
         <img src="https://i.scdn.co/image/ab67616d0000b2737005885df706891a3c182a57" alt="">
@@ -232,16 +102,23 @@
         <img src="https://i.scdn.co/image/ab67616d0000b2738940ac99f49e44f59e6f7fb3" alt="">
         <img src="https://i.scdn.co/image/ab67616d0000b273d8c1b5fc9a7b58bd3a1c0a7c" alt="">
     </div>
+
+
     <p class="explicacao"> <strong> I started listening to Tyler during the pandemic and i still listen to it today. I
             like hear her songs, mainly because of his voice, i think his voice is very unique in the world of rap and
             hip hop, i feel like it stands out really well in all of his songs i really like how he interacts with his
             voice and the instruments fr. </strong> </p>
-    <h2> <strong> My favorite album within these 6 albuns: </strong></h2>
-    <h2><strong>"Wolf"</strong></h2>
+
+    <div class="container">
+        <h2> <strong> My favorite album within these 6 albuns: "Wolf"</strong></h2>
+        
+    </div>
+
+
     <div class="destaque">
         <img src="https://i.scdn.co/image/ab67616d0000b273ecdf37c0fb7d35f589e2fb4d" alt="">
     </div>
-    <p><strong>Favorites songs: "Answer", "PartyIsntOver/Campfire/Bimmer", Jamba (feat.Hodgy)</strong></p>
+    <p><strong>Favorites songs: "Answer", "PartyIsntOver/Campfire/Bimmer", "Jamba (feat.Hodgy)".</strong></p>
     <p class="explicacao">
         <strong>I don't have an opinion to explain why i like this album so much, again.. i love all the albuns this
             incredible guy has done but Wolf stands out the most i don't know why SORRY 😭😭😭</strong>
@@ -254,7 +131,10 @@
                     href="https://en.wikipedia.org/wiki/Tyler,_the_Creator" target="_blank"> click here!</a></strong>
         </p>
     </div>
-    <h2> <strong> 4. Lamp - some albuns </strong> </h2>
+    <div class="container">
+        <h2> <strong> 4. Lamp - some albuns </strong> </h2>
+    </div>
+
     <div class="albuns">
         <img src="https://i.scdn.co/image/ab67616d0000b273bbc2ac628f52cd6127e20bfa" alt="">
         <img src="https://i.scdn.co/image/ab6761610000e5eb0200ae3b8094a3b795e51f59" alt="">
@@ -268,32 +148,39 @@
             simplicity manages to make it good. </strong>
     </p>
 
-    <h2 class="lamp-text"> <strong>Of them, i don't have a favorite especific album, but i have some musics that i guard
+    <h3 class="lamp-of"> <strong>Of them, i don't have a favorite especific album, but i have some musics that i guard
             in my heart, there are:</strong></h2>
 
-    <div class="lamp-space">
-        <p><strong><a href="https://open.spotify.com/intl-pt/track/3VPBPBZKxQu3bqeuzz8gRm?si=2382790786544094"
-                    target="_blank">最終列車は25時 (Last Train at 25 o'clock) - For lovers</a></strong></p>
-        <p><strong><a href="https://open.spotify.com/intl-pt/track/2TcSU9FCKVK66UKZ96BRP7?si=f0460e35bbe44878"
-                    target="_blank">
-                    空はグレー (Sora wa Gray) - Yume </a></strong></p>
 
-        <p><strong><a href="https://open.spotify.com/intl-pt/track/1GTC0DN9LGOdP0NdvoHyX7?si=1a3d86ba00524a73"
-                    target="_blank">ゆめうつつ (Yume utsutsu) - Lamp Genso</a> </strong></p>
-        <p><strong><a href="https://open.spotify.com/intl-pt/track/1EA40FX9aBaKIXwIp83WzL?si=7127bbda57784f56"
-                    target="_blank"> 二十歳の恋 (Hatachi No Koi) - Lamp Genso</a> </strong></p>
-        <p><strong><a href="https://open.spotify.com/intl-pt/track/7JNRbAGTrJVjx88GvHBaUP?si=78f0207c807a49e9"
-                    target="_blank"> 部屋の窓辺 (From the Window) - Soyokaze Apartment Room 201</a> </strong></p>
-    </div>
+        <div class="container">
+            <div class="lamp-space">
+                <p><strong><a href="https://open.spotify.com/intl-pt/track/3VPBPBZKxQu3bqeuzz8gRm"
+                            target="_blank">最終列車は25時 (Last Train at 25 o'clock) - For lovers</a></strong></p>
 
-    <p class="explicacao">
-        <strong> - I have manyyyyyyyyyy other albums that i can mention here but for me it's actually a lot of work
-            because i'm starting to study programming now, possibly in the future i can come and make this site more
-            welcoming for whoever comes to visit it
-            that's it, goodbye! </strong>
-    </p>
-    <img class="gif" src="https://i.pinimg.com/originals/71/90/e0/7190e0c1acb70c6af858df1409ff13fb.gif" alt="">
-    <p class="asf"> <strong>im tired asf </strong></p>
+                <p><strong><a href="https://open.spotify.com/intl-pt/track/6oXPjyaxx5hqa2DiDQt03G" target="_blank">空はグレー
+                            (Sora wa Gray) - Yume </a></strong></p>
+
+                <p><strong><a href="https://open.spotify.com/intl-pt/track/1GTC0DN9LGOdP0NdvoHyX7" target="_blank">ゆめうつつ
+                            (Yume utsutsu) - Lamp Genso</a> </strong></p>
+
+                <p><strong><a href="https://open.spotify.com/intl-pt/track/1EA40FX9aBaKIXwIp83WzL" target="_blank">
+                            二十歳の恋 (Hatachi No Koi) - Lamp Genso</a> </strong></p>
+
+                <p><strong><a href="https://open.spotify.com/intl-pt/track/7JNRbAGTrJVjx88GvHBaUP" target="_blank">
+                            部屋の窓辺 (From the Window) - Soyokaze Apartment Room 201</a> </strong></p>
+            </div>
+        </div>
+
+
+        <p class="explicacao">
+            <strong> - I have manyyyyyyyyyy other albums that i can mention here but for me it's actually a lot of work
+                because i'm starting to study programming now, possibly in the future i can come and make this site more
+                welcoming for whoever comes to visit it
+                that's it, goodbye! </strong>
+        </p>
+        <img class="gif" src="https://i.pinimg.com/originals/71/90/e0/7190e0c1acb70c6af858df1409ff13fb.gif" alt="">
+        <p class="asf"> <strong>im tired asf </strong></p>
+
 </body>
 
 
