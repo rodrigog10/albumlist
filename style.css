@@ -1,0 +1,213 @@
+body {
+    background-color: rgb(255, 200, 99);
+}
+
+.container {
+    text-align: center;
+    /* SERVE SOMENTE PARA DEIXAR CENTRALIZADO A DIV TITLE!!!!! */
+    padding-bottom: 60px;
+}
+
+.title {
+    border: 2px solid #000;
+    border-radius: 15px;
+    background-color: #ff40003e;
+    /* Fundo claro */
+    margin: 0px;
+    display: inline-block;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.657);
+
+
+}
+
+.socialmedia {
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 10px;
+
+}
+
+.socialmedia a {
+    color: rgb(255, 0, 0);
+    font: normal 15pt georgia;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contas {
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+.caixinha {
+    background-color: #ff400043;
+    /* Fundo claro */
+    border: 2px solid #000;
+    /* Borda preta */
+    border-radius: 20px;
+    /* Bordas arredondadas */
+    padding: 0px;
+    /* Espaçamento interno */
+    width: 300px;
+    /* Largura fixa */
+    margin: 50px auto;
+    /* Centraliza horizontalmente */
+    text-align: center;
+    /* Centraliza o texto */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.698);
+}
+
+h1 {
+    font: normal 25pt georgia;
+    text-align: center;
+    padding: 0px;
+}
+
+h2 {
+    border: 2px solid black;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    font: normal 25pt georgia;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.694);
+    background-color: #ff40003f;
+    /* Fundo claro */
+}
+
+p {
+    font: normal 15pt georgia;
+    text-align: center;
+    padding: 10px;
+}
+
+.embaixodoprimeiro {
+    padding: 60px;
+    font: normal 20pt georgia;
+    text-align: center;
+    width: 50rem;
+    margin: 0 auto;
+}
+
+.explicacao {
+    font: normal 13pt georgia;
+    padding: 70px;
+    width: 40rem;
+    /* Largura máxima da caixa de resultados */
+    height: 20vh;
+    /* Altura máxima da caixa de resultados */
+    text-align: center;
+    /* Centraliza o texto */
+    margin: 0 auto;
+    /* Centraliza a div na página */
+}
+
+.destaque {
+    display: flex;
+    justify-content: center;
+    /* Centraliza as imagens horizontalmente */
+    margin: 0 auto;
+    /* Centraliza a div das imagens */
+}
+
+.destaque img {
+    width: 350px;
+}
+
+.albuns {
+    display: flex;
+    justify-content: center;
+    /* Centraliza as imagens horizontalmente */
+    margin: 0 auto;
+    /* Centraliza a div das imagens */
+
+}
+
+.albuns img {
+    width: 250px;
+}
+
+.albunstyler {
+    display: flex;
+    justify-content: center;
+    /* Centraliza as imagens horizontalmente */
+    margin: 0 auto;
+    /* Centraliza a div das imagens */
+}
+
+.albunstyler img {
+    width: 200px;
+}
+
+.link-tyler {
+    margin-top: -110px;
+
+}
+
+
+
+.twin-fantasy {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.twin-fantasy img {
+    width: 350px;
+
+}
+
+.lamp-of {
+    text-align: center;
+    font: normal 19pt georgia;
+    margin-top: -55px;
+    padding: 40px;
+
+}
+
+.lamp-space {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #ff400036;
+    /* Fundo claro */
+    display: inline-block;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.585);
+
+}
+
+.lamp-space a {
+    color: rgb(255, 0, 0);
+    font: normal 15pt georgia;
+    font-weight: bold;
+    display: block;
+    /* Faz com que os links ocupem uma linha inteira */
+    margin-bottom: -20px;
+    /* Ajuste a margem inferior entre os links */
+}
+
+.link {
+
+    margin-top: -20px;
+    font: normal 17px georgia;
+}
+
+.asf {
+    text-align: left;
+}
+
+.gif {
+    width: 300px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00d0ff;
+    /* Cor que você deseja quando passar o dedo sobre qualquer link */
+}
